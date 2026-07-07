@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: "Catamaran", sans-serif;
+}
+
+@layer base {
+	body {
+		@apply text-slate-50 bg-slate-900;
+	}
+}
